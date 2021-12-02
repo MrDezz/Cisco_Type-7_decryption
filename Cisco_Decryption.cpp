@@ -49,6 +49,8 @@ int main(void)
     }
 
     cout << "Decrypted password: " << Decr_passwd << endl;
+    
+    delete [] Letters;
 
     cout << endl << "Enter any case to close the program" << endl;      // Technical pause
     cin >> Passwd_length;  
